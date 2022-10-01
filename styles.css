@@ -175,6 +175,7 @@ input{
     position: absolute;
     top: 20em;
     left: 30em;
+    color: hsl(0, 0%, 100%);
 }
 
 .backcc{
@@ -185,11 +186,33 @@ input{
 .cc-logo{
     position: relative;
     height: 2em;
-    width: 3em;
+    width: 4em;
     right: 29em;
     bottom: 13em;
 }
 
 .cc-example-numbers{
     position: relative;
+    font-size: 2.7em;
+    bottom: 3em;
+    left: .7em;
+}
+
+.cc-name{
+    position: relative;
+    bottom: 4.3em;
+    left: 1.39em;
+    font-size:1.5rem;
+}
+.cc-date{
+    position: relative;
+    font-size:1.5rem;
+    bottom: 5.3em;
+    left: 18.4em;
+
+    
+}
+
+.backcc-cvc{
+    color: red;
 }
